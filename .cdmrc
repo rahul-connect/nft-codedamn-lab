@@ -1,0 +1,2 @@
+tabs: ['contracts/MyNft.sol']
+terminal-one: npm install
