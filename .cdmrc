@@ -1,2 +1,2 @@
 tabs: ['scripts/deploy.js']
-terminal-one: npm install && npx hardhat node
+terminal-one: npm install

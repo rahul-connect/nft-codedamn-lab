@@ -24,6 +24,10 @@ module.exports = {
   networks:{
     hardhat:{
 
+    },
+    rinkeby:{
+      url: "",
+      accounts:[""] 
     }
   }
 };
