@@ -1,2 +1,2 @@
-tabs: ['scripts/deploy.js']
+tabs: ['scripts/mint-nft.js','hardhat.config.js']
 terminal-one: npm install
