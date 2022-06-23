@@ -1,2 +1,2 @@
-tabs: ['contracts/MyNft.sol']
-terminal-one: npm install
+tabs: ['scripts/deploy.js']
+terminal-one: npm install && npx hardhat node
