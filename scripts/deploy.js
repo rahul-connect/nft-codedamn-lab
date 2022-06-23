@@ -1,15 +1,17 @@
 const {ethers} = require("hardhat");
 
 async function main(){
-    // Write deployement script here
-    
+    const MyNFT = await ethers.getContractFactory("MyNFT");
+    const myNft = await MyNFT.deploy("MyFirstNFT","MNFT");
+    await myNft.deployed();
+    console.log("Contract Successfully Deployed to: ",myNft.address);
 }
 
-// call the main function below
+
+main().then(()=>process.exit(0)).catch((error)=>{
+    console.log(error);
+    process.exit(1);
+});
 
 
 
-
-// IMPORTANT : 
-// MAKE SURE YOU EDIT hardhat config file and rinkeby network details 
-// After deploying to rinkeby network, make sure to copy and remember the deployed address.
