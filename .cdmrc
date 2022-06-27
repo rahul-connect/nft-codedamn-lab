@@ -1,2 +1,2 @@
-tabs: ['contracts/Greeter.sol']
+tabs: ['test/sample-test.js']
 terminal-one: npm install
