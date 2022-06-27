@@ -1,0 +1,2 @@
+tabs: ['contracts/Greeter.sol']
+terminal-one: npm install
