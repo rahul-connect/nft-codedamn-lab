@@ -1,2 +1,2 @@
-tabs: ['test/sample-test.js']
+tabs: ['scripts/sample-script.js']
 terminal-one: npm install
